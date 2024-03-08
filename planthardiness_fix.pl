@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+ <!--[if lt IE 9]><html class="no-js lt-ie9" lang="en" dir="ltr"><![endif]-->
+ <!--[if gt IE 8]><!-->
+ <html class="no-js" lang="en" dir="ltr">
+ <!--<![endif]-->
+ <head>
+ <meta charset="utf-8" />
+ <!-- Web Experience Toolkit (WET) / Boite a outils de l'experience Web (BOEW)
+ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+ 
+ <title>Canada's Plant Hardiness Site</title>
+ 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+ 	<meta name="keywords" content="" />
+ 	<meta name="description" content="Canada's Plant Hardiness Site" />
+ 	<meta name="dcterms.title" content="" />
+ 	<meta name="dcterms.creator" content="Government of Canada, Natural Resources Canada, Canadian Forest Service" />
+ 	<meta name="dcterms.language" title="ISO639-2" content="eng" />
+ 
+ 	<!--[if gte IE 9 | !IE]><!-->
+ 		<link rel="apple-touch-icon" sizes="57x57 72x72 114x114 144x144 150x150" class="wb-favicon" href="/dist/theme-gcwu-fegc/assets/favicon-mobile.png">
+ 		<link href="/dist/theme-gcwu-fegc/assets/favicon.ico" rel="icon" type="image/x-icon">
+ 		<link rel="stylesheet" href="/dist/theme-gcwu-fegc/css/theme.min.css">
+ 	<!--<![endif]-->
+ <link rel="stylesheet" href="/dist/latest/css/theme.min.css">
+ 
+ 	<!--[if lt IE 9]>
+ 		<link href="/dist/theme-gcwu-fegc/assets/favicon.ico" rel="shortcut icon" />
+ 		<link rel="stylesheet" href="/dist/theme-gcwu-fegc/css/ie8-theme.min.css" />
+ 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ 		<script src="/dist/latest/js/ie8-wet-boew.min.js"></script>
+ 	<![endif]-->
+  <noscript><link rel="stylesheet" href="/dist/latest/css/noscript.min.css" /></noscript>
+  <link rel="stylesheet" type="text/css" href="local.css" media="all" />
+ 
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-40966744-1', 'nrcan.gc.ca');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+ </script>
+ </head>
+ 
+ <body vocab="http://schema.org/" typeof="WebPage">
+ <ul id="wb-tphp">
+  <li class="wb-slc"><a class="wb-sl" href="#wb-cont">Skip to main content</a></li>
+  <li class="wb-slc visible-md visible-lg"><a class="wb-sl" href="#wb-info">Skip to "About this site"</a></li>
+  <li class="wb-slc"><a class="wb-sl" href="#wb-sec">Skip to section menu</a></li>
+ </ul>
+<header role="banner">
+ 	<!-- HeaderStart -->
+ 	<div id="wb-bnr">
+ 		<div id="wb-bar">
+ 			<div class="container">
+ 				<div class="row">
+ 					<object id="gcwu-sig" data="/dist/theme-gcwu-fegc/assets/sig-en.svg" role="img" tabindex="-1" aria-label="Government of Canada" type="image/svg+xml"></object>
+ 					<ul id="gc-bar" class="list-inline">
+ 						<li><a rel="external" href="http://www.canada.ca/en/index.html">Canada.ca</a></li>
+ 						<li><a rel="external" href="http://www.canada.ca/en/services/index.html" >Services</a></li>
+ 						<li><a rel="external" href="http://www.canada.ca/en/gov/dept/index.html">Departments</a></li>
+ 						<li id="wb-lng">
+ 							<h2>Language selection</h2>
+ 							<ul class="list-inline">
+ 								<li><a href="/index.pl?&amp;lang=fr" title="Fran&ccedil;ais">Fran&ccedil;ais</a>
+ 								</li>
+ 							</ul>
+ 						</li>
+ 					</ul>
+ 					<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
+ 						<h2>Search and menus</h2>
+ 						<ul class="pnl-btn list-inline text-right">
+ 							<li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk btn btn-sm btn-default" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
+ 						</ul>
+ 						<div id="mb-pnl"></div>
+ 					</section>
+ 				</div>
+ 			</div>
+ 		</div>
+ 
+ 		<div class="container">
+ 			<div class="row">
+ 				<div id="wb-sttl" class="col-md-5">
+ 					<a href="http://nrcan.gc.ca/home">
+ 						<span>Natural Resources Canada</span>
+ 					</a>
+ 				</div>
+ 
+ 				<object id="wmms" data="dist/theme-gcwu-fegc/assets/wmms.svg" role="img" tabindex="-1" aria-label="Symbol of the Government of Canada" type="image/svg+xml"></object>
+ 
+ 				<section id="wb-srch" class="visible-md visible-lg" role="search">
+ 					<h2>Search</h2>
+ 					<form class="form-inline" action="https://www2.nrcan.gc.ca/sr/index-eng.cfm" method="post" role="search">
+ 						<div class="form-group">
+ 							<label for="wb-srch-q">Search website</label>
+ 							<input id="wb-srch-q" class="form-control" name="q" type="search" value="" size="27" maxlength="150" />
+ 							<input type="hidden" name="a" value="s" />
+ 						</div>
+ 						<button type="submit" id="wb-srch-sub" class="btn btn-default">Search</button>
+ 					</form>
+ 				</section>
+ 			</div>
+ 		</div>
+ 	</div>
+ 
+ 	<nav role="navigation" id="wb-sm" data-ajax-fetch="dist/includes/mega-menu-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+ 		<div class="container nvbar">
+ 			<h2>Topics menu</h2>
+ 			<div class="row">
+ 				<ul class="list-inline menu">
+ 					<li><a href="http://www.nrcan.gc.ca/energy">Energy</a></li>
+ 					<li><a href="http://www.nrcan.gc.ca/mining-materials">Mining/Materials</a></li>
+ 					<li><a href="http://www.nrcan.gc.ca/forests">Forests</a></li>
+ 					<li><a href="http://www.nrcan.gc.ca/earth-sciences">Earth Sciences</a></li>
+ 					<li><a href="http://www.nrcan.gc.ca/hazards">Hazards</a></li>
+ 					<li><a href="http://www.nrcan.gc.ca/explosives">Explosives</a></li>
+ 					<li><a href="http://www.nrcan.gc.ca/the-north">The North</a></li>
+ 					<li><a href="http://www.nrcan.gc.ca/environment">Environment</a></li>
+ 				</ul>
+ 			</div>
+ 		</div>
+ 	</nav>
+ 
+ 	<nav role="navigation" id="wb-bc" property="breadcrumb">
+ 		<h2>You are here:</h2>
+ 		<div class="container">
+ 			<div class="row">
+ 				<ol class="breadcrumb">
+ 				<li><a href="https://www.canada.ca/en.html">canada.ca</a> </li>
+ 				<li><a href="https://www.nrcan.gc.ca/home">Natural Resources Canada</a> </li>
+ 				<li><a href="/">Plant Hardiness of Canada</a></li>
+ </ol>
+ 			</div>
+ 		</div>
+ 	</nav>
+ <!-- HeaderEnd -->
+ </header>
+ 
+ <div class="container">
+ 	<div class="row">
+ 		<main role="main" property="mainContentOfPage" class="col-md-9 col-md-push-3">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+<p>This site explores the  relationship between plants and climate  across Canada. One portion of the site is dedicated to plant hardiness zone maps, which have traditionally been used by gardeners to help select which plant species to grow in their area. Another part of the site presents maps and models that summarize the climatic requirements of thousands of plants from across North America. A final aspect of the site  gathers data and provides summaries about plants that occur in your area.</p>
+ 
+ <img src="images/PHZ_2014_CFS_Map_30M.png" style="width:250px; float:right" alt="PHZ_2014_CFS_Map_30M">
+ <p>What would you like to do?</p>
+ 
+ <ul>
+ <li><a href="?m=1">Explore Plant Hardiness Zone Maps</a></li>
+ <li><a href="?m=23">Explore Species-specific Models and Maps</a></li>
+ <li><a href="?m=11">Explore Plants in My Area</a></li>
+ </ul>
+<dl id="wb-dtmd">
+<dt>Date modified:</dt><dd><span><time>2022-11-21</time></span></dd>
+</dl>
+<div class="clear"></div>
+</main>
+ <!-- Main content ends / Fin du contenu principal -->
+    <!-- LEFT START -->
+     <!-- Primary navigation (left column) begins / Debut de la navigation principale (colonne gauche) -->
+ <nav role="navigation" id="wb-sec" typeof="SiteNavigationElement" class="col-md-3 col-md-pull-9 visible-md visible-lg">
+ <h2>Secondary menu</h2>
+ <ul class="list-group menu list-unstyled">
+  <li><a class="list-group-item " href="?">Plant Hardiness of Canada</a></li>
+  <li><a class="list-group-item " href="?m=1&amp;lang=en">Plant Hardiness Zone Maps</a>
+ <ul class="list-group menu list-unstyled">
+  <li><a class="list-group-item " href="?m=14&amp;lang=en">Background</a></li>
+  <li><a class="list-group-item " href="?m=15&amp;lang=en">Climate maps and hardiness indices used to develop the new plant hardiness zones</a></li>
+  <li><a class="list-group-item " href="?m=22&amp;lang=en">Plant Hardiness Zone by Municipality</a></li>
+ </ul></li>
+  <li><a class="list-group-item " href="?m=23&amp;lang=en">Species-specific Models and Maps</a></li>
+  <li><a class="list-group-item " href="?m=11&amp;lang=en">Plants in my area</a></li>
+  <li><a class="list-group-item " href="?m=19&amp;lang=en">Acknowledgements</a></li>
+  <li><a class="list-group-item " href="?m=20&amp;lang=en">Site Help</a></li>
+ </ul>
+    </nav>
+   </div>
+  </div>
+     <!-- Primary navigation (left column) ends / Fin de la navigation principale (colonne gauche) -->
+     <!-- LEFT END -->
+</body>
+</html>
